@@ -1,0 +1,32 @@
+# ── ESP32 / PlatformIO project (separate project, NOT part of Omletz Miner) ──
+.pio/
+src/
+include/
+lib/
+platformio.ini
+
+# ── SECURITY: never commit these ─────────────────────────────────────────────
+src/config.h
+.claude/
+
+# ── Build artifacts ───────────────────────────────────────────────────────────
+ccminer/build_out.txt
+ccminer/.vs/
+ccminer/*.o
+ccminer/*.a
+ccminer/ccminer
+ccminer/ccminer.exe
+OmletzMiner/OmletzMiner/bin/
+OmletzMiner/OmletzMiner/obj/
+
+# ── VS / IDE ──────────────────────────────────────────────────────────────────
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+*.user
+.vs/
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
