@@ -9,6 +9,10 @@ platformio.ini
 src/config.h
 .claude/
 
+# ── Publish binaries (upload as GitHub Release assets instead) ───────────────
+publish/
+publish-linux/
+
 # ── Build artifacts ───────────────────────────────────────────────────────────
 ccminer/build_out.txt
 ccminer/.vs/
